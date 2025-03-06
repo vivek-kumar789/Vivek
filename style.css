@@ -1,0 +1,510 @@
+*{
+  box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.box {
+  justify-self: center;
+}
+
+.box a {
+  justify-self: center;
+  text-align: center;
+}
+
+.imges {
+  width: 310px;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+.imganimate {
+  width: 250px;
+  box-sizing: border-box;
+  height: fit-content;
+  border-radius: 40px;
+  overflow: hidden;
+  justify-self: center;
+}
+
+.text{
+  color: #000000;
+  font-weight: 900;
+}
+
+#text2{
+  margin: 4px;
+  color:white;
+  font-size: 30pt;
+  font-weight: 900;
+  text-shadow: 0px 0px 6px #FF5400;
+}
+
+.imgess {
+  width: 260px;
+  border-radius: 18px;
+  justify-self: center;
+  transition: 0.4s;
+  padding: 0px;
+}
+
+.imgess:hover {
+  transform: scale(1.099);
+}
+
+.box a p {
+  color: #FFCE00;
+  text-decoration-color: red;
+  justify-self: center;
+  text-align: justify;
+}
+
+.emage {
+  justify-self: center;
+  width: 280px;
+  margin-left: 10%;
+}
+
+.box3 {
+  border-radius: 8px;
+  padding: 21.5px 3px 10px 3px;
+  justify-self: center;
+  text-align: center;
+  margin: 8px;
+  background: #74747457;
+  width: 89%;
+  box-shadow: 0px 0px 7px #A5A5A5;
+}
+
+#sourceCode {
+  background: #028F00;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  justify-self: right;
+  border-radius: 10px;
+  float: right;
+  font-weight: 1000;
+  font-size: 12.8pt;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-shadow: 0px 0px 10px #009222;
+}
+
+* {
+  margin: 0px;
+  font-family: "Akaya Kanadaka", serif;
+  padding: 0px;
+}
+
+body {
+  background: #3C3C3C;
+}
+
+.heading {
+  position: relative;
+  right: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  color: #fff;
+  margin: 5px;
+  margin-top: -49px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 17pt;
+  background: linear-gradient(120deg, #FFCD61ED, #958BFFED, #F888FFED, #FF69A4ED, #FF6161ED);
+  padding: 6px;
+  float: right;
+  border-radius: 8.9px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#floatNav {
+  position: relative;
+  left: 18px;
+  top: 13px;
+  padding: 0px;
+  background: none;
+  color: white;
+  font-weight: 900;
+  font-size: 20pt;
+  border: none;
+  cursor: pointer;
+}
+
+.navBox {
+  display: none;
+  transition: 0.5s;
+  margin-left: 5px;
+  margin-top: 25px;
+  padding: 13px;
+  width: 162px;
+  background: #A1A1A159;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  transition: 0.4s;
+  gap: 14px;
+}
+
+input,
+#more {
+  top: 40px;
+  padding: 6px;
+  margin: 10px;
+  border: none;
+  background: #FFC650;
+  border-radius: 8px;
+  color: black;
+  font-weight: 700;
+  font-size: 13pt;
+  cursor: pointer;
+  font-family: "Akaya Kanadaka", serif;
+  outline: none;
+  display: block;
+  text-align: center;
+  width: 120px;
+}
+
+#more {
+  padding: 2px;
+  box-sizing:auto;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  top: 0px;
+  height: 56px;
+  background: #675959;
+}
+
+#floatscrollbtn {
+  display: none;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  float: right;
+  padding: 8px;
+  font-size: 18pt;
+  border-radius: 5px;
+  color: #E2FB4C;
+  background: #7979797A;
+  border: none;
+  cursor: pointer;
+  box-shadow:inset 0px 0px 4px #D5FF03;
+}
+
+#my {
+  width: fit-content;
+  color: #F6F6F6;
+  font-weight: 900;
+  font-size: 20pt;
+  margin: 18px;
+  margin-left: 20px;
+  margin-top: 25px;
+  letter-spacing: 1.5px;
+  padding-bottom: 0px;
+  border-left: 8px solid #FFAA35;
+  border-top: 6px solid #FFB25000;
+  border-bottom: 6px solid #FFB25000;
+  font-size: 24pt;
+  padding-left: 15px;
+}
+
+.heads {
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  color: #C0C0C0;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.languages {
+  width: 28.5%;
+  height: 30%;
+  text-align: center;
+  padding: 15px;
+  background: #8A8A8A6E;
+  backdrop-filter: blur(20px);
+  margin: 4px;
+  margin-top: 25px;
+  border-radius: 0px 20px 20px 20px;
+  z-index: -1;
+  box-sizing: border-box;
+}
+
+.languages img {
+  width: 50%;
+  justify-self: center;
+  padding-top: 8px;
+}
+
+.name {
+  text-align: left;
+  margin-top: 20%;
+  padding-left: 3px;
+  padding-right: 0px;
+  color: white;
+  font-size: 12pt;
+}
+
+.langbox h5 {
+  list-style: none;
+  font-size: 18pt;
+  color: #C0C0C0;
+  margin: 8px;
+  margin-top: 20px;
+  margin-left: 6%;
+  padding-left: 8px;
+  border-radius: 9px;
+}
+
+#html {
+  border-left: 8px solid #FF4100;
+}
+
+#js {
+  border-left: 8px solid #E1CB00;
+}
+
+#css {
+  border-left: 8px solid #0054D2;
+}
+
+#html,#css,#js{
+  box-sizing: border-box;
+}
+
+hr{
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0px 0px 8px #FF5401;
+}
+
+#my-know{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: #FF5401;
+  font-size: 25pt;
+  font-weight: 900;
+  text-shadow:0px 0px 4px #FF5400;
+}
+
+.known{
+  width: 90%;
+  justify-self: center;
+  background: #B4B4B452;
+  margin-top:12px;
+  border-radius: 8px;
+  border:1.8px solid #DBDBDB70;
+  display:flex;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #8F8F8FC7;
+}
+
+.imglang1,.imglang2,.imglang3{
+  background-color: #C1C0C063;
+  padding: 7px;
+  overflow: hidden;
+  transition: 3s;
+}
+
+.imglang1 img,.imglang2 img, .imglang3 img{
+  margin-top:8px;
+  margin-left: 10px;
+  display:flex;
+}
+.imglang1 p,.imglang2 p, .imglang3 p{
+  text-align:right;
+  font-size: 20pt;
+  font-weight: 900;
+}
+
+.imagees{
+  width:45px;
+  
+}
+
+.imgee img{
+  box-shadow: 0px 0px 15px #A3A3A3E3;
+}
+
+.contactBtn{
+  width:40%;
+  background: #A4A4A46B;
+  border-radius:8px;
+  border: none;
+  margin: 35px;
+}
+
+.contactBtn img{
+  width:90%;
+  padding: 18px;
+}
+
+.Contactbox{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.input-box{
+	border: none;
+	outline: none;
+	background: #A0A0A069;
+	padding: 12px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+textarea{
+	font-family: "Averia Libre", system-ui;
+	width: 82%;
+	height: 240px;
+	font-size: 12pt;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: inset 0px 0px 15px #A2A2A240;
+	width: 94%;
+	border-radius: 4%;
+	margin-top:10px;
+	justify-self:center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#yourName,#mail
+{
+	width: 82%;
+}
+
+#yourName,#mail,textarea{
+  box-shadow:inset 0px 0px 8px #DBDBDB6B;
+}
+
+#yourName:hover{
+  border:1px solid #FFD200AB;
+}
+
+#mail:hover{
+  border:1px solid #FFD200AB;
+}
+
+textarea:hover {
+  border: 1px solid #FFD200AB;
+}
+
+#yourName,#mail{
+  padding: 10px;
+}
+
+#yourName::placeholder {
+  color: #A5A5A5;
+}
+#mail::placeholder {
+  color: #A5A5A5;
+}
+textarea::placeholder {
+  color: #A5A5A5;
+  font-size: 15pt;
+  text-align: center;
+}
+
+input[type="email"]
+{
+	color: #0070FF;
+	margin-bottom: 3px;
+}
+
+#error{
+	font-size: 10pt;
+	font-weight: 400;
+	margin-right: 25%;
+}
+
+.mailText{
+  border-left:6px solid #0086FF;
+  border-right:6px solid #0086FF;
+  background: #AAAAAA45;
+  width: 75%;
+  padding: 7px;
+  text-align: center;
+  margin: auto;
+  color:white;
+  font-size: 18pt;
+  margin-bottom: 20px;
+}
+
+#sendBtn{
+  width: 85%;
+  border:none;
+  background: none;
+  box-shadow: inset 0px 0px 10px #CCCCCC78;
+  border-radius:20px;
+  height: 40px;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+#sendBtn:hover{
+  background: linear-gradient(120deg, #FFD200, #FF8900);
+}
+#sendBtn:active{
+  background: linear-gradient(120deg, #FF8900, #FFD200AB);
+  color: #FFFFFF;
+}
+
+.end{
+  text-align:center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#Share{
+  border: none;
+  background: linear-gradient(120deg, #FF8409, #FFF909);
+  border-radius:10px;
+  padding: 10px;
+  font-size:12pt;
+  font-weight:600;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#Share:hover{
+  background: linear-gradient(120deg, #FF6609, #FFE209);
+}
+
+#Share:active{
+  background: linear-gradient(120deg, #FF9709, #EEFF09);
+  color:white;
+}
+
+.sharebox{
+  padding-bottom: 20px;
+}

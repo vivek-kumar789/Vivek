@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    .languages:hover {
+      box-shadow: 8px 8px 5px red;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Project -->
+  <div class="nav">
+    <button type="button" id="floatNav" onclick="openNav()"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></button>
+    <!-- <i class="fa-solid fa-xmark-large"></i> -->
+    <div class="navBox">
+      <div class="navin1">
+        <input type="button" value="Home" onclick="scroll1()">
+        <input type="button" value="Project's" onclick="scroll2()">
+        <input type="button" value="about me" onclick="scroll3()">
+        <input type="button" value="Contact me" onclick="scroll4()">
+        <button type="button" id="more"><i class="fa-solid fa-angles-right" onclick="changeIcon2(this)" style="background: none; width:110px;margin:0px;height:22px;padding:2px;padding-left:2.5px;padding-top: 8px"></i></button>
+      </div>
+      <div class="navin2">
+        <input type="button" id="scrollCalc" value="calculator">
+        <input type="button" id="scrollTemp" value="Task list">
+        <input type="button" id="scrollStop" value="Stopwatch">
+        <input type="button" id="scrollPass" value="password">
+        <input type="button" id="scrollFeed" value="Feedback">
+      </div>
+    </div>
+  </div>
+  <h2 class="heading">Vivek Kumar</h2>
+  <div class="introduction">
+    <h3 id="my">Introduction</h3>
+    <br />
+    <div class="inter">
+      <h2 class="heads">
+        Here in this website, you will get some basic projects and
+        these projects are built using these languages --
+      </h2>
+      <div class="lang">
+        <div class="languages">
+          <strong class="name">HTML</strong>
+          <br>
+          <img src="/images-removebg-preview.png" alt="">
+        </div>
+        <div class="languages">
+          <strong class="name" style="border-left-color: #E4BC00">JavaScript</strong>
+          <br>
+          <img src="/images__2_-removebg-preview (2).png" alt="">
+        </div>
+        <div class="languages">
+          <strong class="name" style="border-left-color: #005FE4">CSS</strong>
+          <br>
+          <img src="/images__3_-removebg-preview.png" alt="">
+        </div>
+      </div>
+      <div class="langbox">
+        <h5 id="html">Hyper text markup language</h5>
+        <h5 id="js">JavaScript</h5>
+        <h5 id="css">Cascading style sheet</h5>
+      </div>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">Age calculator</h3>
+    <div class="box"> <a href="https://kumar-vivek279.github.io/agecal.github.io" target="blank">
+        <div class="imgee"><img class="imges" src="/age_calculator.jpg" alt="age calculator"></div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">A Calculator <br> which is used to <br> find the difference <br> between two age is <br>known as <strong>Age calculator</strong></label>
+      <a href="https://github.com/vivek-kumar789/Calculator.github.io.git" id="sourceCode" target="blank"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">Task list</h3>
+    <div class="box"> <a href="https://vivek-kumar789.github.io/Task-List-for-today-s-work/" target="blank">
+        <div class="imgee"><img class="imges" src="/todolist.jpg" alt="age calculator"></div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">A task list <br> which is used to <br> note today's work and <br> goal known as <strong>To do list</strong></label>
+      <a href="https://github.com/vivek-kumar789/Task-List-for-today-s-work.git" target="blank" id="sourceCode"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">Calculator</h3>
+    <div class="box"> <a href="https://vivek-kumar789.github.io/Calculator.github.io/" target="blank">
+        <div class="imgee">
+          <img class="imges" src="/calculator.jpg" alt="age calculator">
+        </div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">A Calculator <br> which is used for <br> multiplication, addition,<br> subtraction and division is<br> known as <strong>digital calculator.</strong></label>
+      <a href="https://github.com/vivek-kumar789/Calculator.github.io.git" id="sourceCode" target="blank"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">Stopwatch</h3>
+    <div class="box"> <a href="https://vivek-kumar789.github.io/Stopwatch-by-Vivek/" target="blank">
+        <div class="imgee">
+          <img class="imges" src="/stopwatch.jpg" alt="age calculator">
+        </div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">A Stopwatch<br> which is used for<br> time related challenge <br> game and its many use So, <br>this is an <strong>Stopwatch.</strong></label>
+      <a href="https://github.com/vivek-kumar789/Stopwatch-by-Vivek.git" id="sourceCode" target="blank"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">Password Generator</h3>
+    <div class="box"> <a href="https://vivek-kumar789.github.io/Random-password-generator-/" target="blank">
+        <div class="imgee">
+          <img class="imges" src="/password.jpg" alt="age calculator">
+        </div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">A generator <br> which is used to <br> generate random password <br> by enter character value is <br>known as <strong>Password Generator.</strong></label>
+      <a href="https://github.com/vivek-kumar789/Random-password-generator-.git" id="sourceCode" target="blank"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my">QR Code</h3>
+    <div class="box"> <a href="https://vivek-kumar789.github.io/QR-Code-Generator-by-Vivek/">
+        <div class="imgee"><img class="imges" src="/IMG-20250306-WA0002.jpg" alt="age calculator"></div>
+        <p style="text-decoration: none;">click on this image link here...</p>
+      </a>
+      <br>
+      <label for="sourceCode" class="text">This is <br> an login and sign up<br> template for frontend developer <br>as <strong>Age calculator</strong></label>
+      <a href="https://github.com/vivek-kumar789/QR-Code-Generator-by-Vivek.git" id="sourceCode"><i class="fa-solid fa-code-branch"></i> Code</a>
+    </div>
+  </div>
+  <div class="project-list">
+  <h3 id="my">Front Camera</h3>
+  <div class="box"> <a href="https://vivek-kumar789.github.io/Front-webcam-camera/">
+      <div class="imgee"><img class="imges" src="/IMG-20250306-WA0003(1).jpg" alt="age calculator"></div>
+      <p style="text-decoration: none;">click on this image link here...</p>
+    </a>
+    <br>
+    <label for="sourceCode" class="text">This is <br> an login and sign up<br> template for frontend developer <br>as <strong>Age calculator</strong></label>
+    <a href="https://github.com/vivek-kumar789/Front-webcam-camera.git" id="sourceCode"><i class="fa-solid fa-code-branch"></i> Code</a>
+  </div>
+</div>
+  <div class="project-list">
+    <h3 id="my" style="border-left-color:#FF5401;">About me</h3>
+    <div class="box3">
+      <div class="imganimate"><img src="/image.jpg" alt="creator image" class="imgess" style="border-radius: 40px;"></div>
+      <h1 id="text2">Vivek Kumar</h1>
+      <hr>
+      <h2 id="my-know">My knowledge</h2>
+      <div class="known">
+        <div class="scrollAnimate imglang1" style="width: 80%">
+          <img src="/images-removebg-preview.png" alt="html" class="imagees">
+          <p>80%</p>
+        </div>
+      </div>
+      <div class="known">
+        <div class="scrollAnimate imglang1" style="width: 45%">
+          <img src="/images__2_-removebg-preview (2).png" alt="html" class="imagees">
+          <p>45%</p>
+        </div>
+      </div>
+      <div class="known">
+        <div class="scrollAnimate imglang1" style="width: 55%">
+          <img src="/images__3_-removebg-preview.png" alt="html" class="imagees">
+          <p>55%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-list">
+    <h3 id="my" style="border-left-color: #0271FF">Contact</h3>
+    <div class="Contactbox">
+      <button type="button" class="contactBtn">
+        <a href="https://wa.me/9155906785" target="blank">
+          <img src="/sm_5b321c99945a2-removebg-preview (1).png" alt="Whatsapp">
+        </a>
+      </button>
+      <button type="button" class="contactBtn">
+        <a href="https://t.me/vivekkumardeveloper" target="blank">
+          <img src="telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png-removebg-preview.png" alt="Email">
+        </a>
+      </button>
+      <button type="button" class="contactBtn" style="padding-top: 5%; padding-bottom: 5%">
+        <a href="https://github.com/vivek-kumar789?tab=repositories" target="blank">
+          <img src="/github-6980894_1280.png" alt="github" style="border-radius: 35px; width: 80%">
+        </a>
+      </button>
+    </div>
+  </div>
+  </div>
+  <h3 class="mailText">Direct mail to me</h3>
+  <div class="messageForm">
+    <form action="https://api.web3forms.com/submit" method="POST" target="blank">
+      <input type="hidden" name="access_key" value="ce3dc9ba-14e0-47eb-abd4-4e9c2ca00c62">
+      
+      <input type="text" class="input-box" name="name" id="yourName" placeholder="Your Name" required>
+      <input type="email" id="mail" class="input-box" name="email" spellcheck="true" onkeyup="emailValidation()" placeholder="Your Email address" required>
+      <p id="error"></p>
+      <textarea name="message" class="input-box" style="resize: vertical;" placeholder="message..." required></textarea>
+      
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+      
+      <button type="submit" id="sendBtn">Send me  <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </div>
+  <div class="end">
+    <div class="sharebox">
+      <button type="button" id="Share">Share this resume  <i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+    <p>Thanks For scrolling</p>
+    <p>version</p>
+    <p>1.0.0</p>
+  </div>
+  <button type="button" id="floatscrollbtn"><i class="fa-solid fa-circle-chevron-up"></i></button>
+  <script src="main.js"></script>
+</body>
+
+</html>
